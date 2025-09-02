@@ -1,36 +1,35 @@
 import minhaFoto from '../assets/images/eu.png';
 import foto1 from '../assets/images/foto_1.png';
-import elon from '../assets/images/elonMusk.png';
 
 export interface Student {
   name: string;
-  role: string;
+  title: string;
   imageUrl: string;
   github: string;
 }
 export const students: Student[] = [
   {
     name: 'Samuel Ramos Maciel',
-    role: 'Estudante',
+    title: 'CEO da NASA',
     imageUrl: minhaFoto, 
     github: 'https://github.com/Sabdux',
   },
   {
     name: 'João Vithor Silva Ramos',
-    role: 'Estudante',
+    title: 'Hacker do FBI',
     imageUrl: foto1,
     github: 'https://github.com/joaovithor99',
   },
   {
-    name: 'Elon Musk',
-    role: 'Faxineiro',
-    imageUrl: elon , 
-    github: 'https://github.com/elonmuskceo',
+    name: 'Yngrid',
+    title: 'Inventora do Bitcoin',
+    imageUrl: 'https://avatars.githubusercontent.com/u/224887640?v=4', 
+    github: 'https://github.com/yngrid02',
   },
   {
-    name: 'Linus Torvalds',
-    role: 'Criador do Linux',
-    imageUrl: 'https://avatars.githubusercontent.com/u/1024025?v=4', 
-    github: 'https://github.com/torvalds',
+    name: 'Cláudio Júnior',
+    title: 'Programador quântico',
+    imageUrl: 'https://avatars.githubusercontent.com/u/171395985?v=4', 
+    github: 'https://github.com/claudiojrdev',
   },
 ];

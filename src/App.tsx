@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Meu Grupo de Projeto(alguns pelomenos)</h1>
+      <h1>Meu Grupo de Projeto</h1>
 
       
       <div className="cards-grid">
@@ -21,7 +21,7 @@ function App() {
         <Card
           key={yourInfo.name}
           name={yourInfo.name}
-          role={yourInfo.role}
+          title={yourInfo.title}
           imageUrl={yourInfo.imageUrl}
           github={yourInfo.github}
         />
@@ -31,7 +31,7 @@ function App() {
           <Card
             key={student.name}
             name={student.name}
-            role={student.role}
+            title={student.title}
             imageUrl={student.imageUrl}
             github={student.github}
           />
